@@ -1,0 +1,16 @@
+{
+  "name": "crypto-random-cli",
+  "version": "1.0.0",
+  "description": "A small Node.js CLI tool for cryptographically secure randomness: random integers, shuffles, and winner selection.",
+  "main": "src/index.js",
+  "bin": {
+    "crypto-random": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/random.test.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "author": "",
+  "license": "MIT"
+}
